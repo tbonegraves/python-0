@@ -31,10 +31,6 @@ answer=[
 ]
 
 
-while True:
-    question=='bye' or question =='goodbye':
-    print('goodbye')
-    exit()
    else:
        answer = random.choice(answers)
        print(c.random_color()+ (answer + c.reset) 
